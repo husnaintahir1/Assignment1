@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+</head>
+<body>
+    <script >
+    
+        var person = function (name ,fname,age) {
+            this.name=name;
+            this.fname=fname;
+            this.age=age;
+            
+        };
+
+
+
+        var husnain =new person("husnain","tahir",21);
+        var bill =new person("bill","clinton",34);
+    
+        
+        
+        function diffrence (p1,p2) {
+            var x=p1.name + p2.name;
+            return x;
+            
+        }
+        console.log(diffrence(husnain,bill));
+        
+        
+        
+        
+        </script>
+</body>
+</html>
